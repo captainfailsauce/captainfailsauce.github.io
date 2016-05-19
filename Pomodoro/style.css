@@ -1,0 +1,38 @@
+body {
+    background: #fff;
+    color: #fff;
+    font-size: 3em;
+}
+
+.subheading {
+    font-size: 0.5em;
+}
+
+div {
+    padding: 0px;
+}
+
+.container {
+    background: #222;
+    text-align: center;
+}
+
+.left-btn-bank {
+    text-align: right;
+}
+
+.right-btn-bank {
+    text-align: left;
+}
+
+.clock { 
+    border: 3px solid green;
+    border-radius: 50%;
+    width: 50%;
+    padding: 15.25% 0;
+    margin: 20px auto;
+}
+
+.clock-output {
+    font-size: 4.5em;
+}
