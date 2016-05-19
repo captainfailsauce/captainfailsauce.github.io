@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+
 <head>
     <title>Pomodoro Clock</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    
+
     <script src="script.js"></script>
-    
+
 </head>
 
 
@@ -16,27 +17,26 @@
         <!-- buttons -->
         <div class="col-md-6 subheading left-btn-bank">Session Length</div>
         <div class="col-md-6 subheading right-btn-bank">Break Length</div>
-    <div class="row">
-        <div class="col-md-6 left-btn-bank">
-            <a class="btn btn-default" id="session-decrement">-</a>
-            <span id="session-length">25</span>
-            <a class="btn btn-default" id="session-increment">+</a>
-        </div>
-        <div class="col-md-6 right-btn-bank">
-            <a class="btn btn-default" id="break-decrement">-</a>
-            <span id="break-length">5</span>
-            <a class="btn btn-default" id="break-increment">+</a>
-        </div>
-    </div>
-    <!-- clock -->
-    <div class="col-md-12">
-        <div class="clock">
-            <div class="clock-output">
-                <span id="mm">25</span>
-                :
-                <span id="ss">00</span>
+        <div class="row">
+            <div class="col-md-6 left-btn-bank">
+                <a class="btn btn-default" id="session-decrement">-</a>
+                <span id="session-length">25</span>
+                <a class="btn btn-default" id="session-increment">+</a>
+            </div>
+            <div class="col-md-6 right-btn-bank">
+                <a class="btn btn-default" id="break-decrement">-</a>
+                <span id="break-length">5</span>
+                <a class="btn btn-default" id="break-increment">+</a>
             </div>
         </div>
-    </div>
+        <!-- clock -->
+        <div class="col-md-12">
+            <div class="clock">
+                <div class="clock-output">
+                    <span id="mm">25</span> :
+                    <span id="ss">00</span>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
